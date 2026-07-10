@@ -1,0 +1,12 @@
+<ui:UXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/UI/MainMenuStyleSheet.uss?fileID=7433441132597879392&amp;guid=110ea986fee454e4684067b97924e4cc&amp;type=3#MainMenuStyleSheet"/>
+    <ui:VisualElement name="panel-container" style="flex-grow: 1; background-image: url(&quot;project://database/Assets/DragonCrashersAssets/HomeScreenBackground.png?fileID=2800000&amp;guid=d159e204cb37f4b75a7be1e781a954fa&amp;type=3#HomeScreenBackground&quot;); -unity-background-scale-mode: scale-and-crop; width: 100%; height: 100%;">
+        <ui:VisualElement name="center-panel" class="centerPanel" style="flex-grow: 1; align-items: center; justify-content: center; align-self: center;">
+            <ui:VisualElement name="logo" style="background-image: url(&quot;project://database/Assets/DragonCrashersAssets/UI_atlas.psd?fileID=5567931294915449570&amp;guid=3ea5741daef7b4b5c9d04795c7e84687&amp;type=3#UI_atlas_114&quot;); width: 567px; height: 292px;"/>
+            <ui:Label text="MAIN MENU" name="headline__label" style="-unity-font-definition: url(&quot;project://database/Assets/DragonCrashersAssets/Fonts/ChelaOne-Regular.ttf?fileID=12800000&amp;guid=8c2226f5768e49f4ca5f58858a57cb7a&amp;type=3#ChelaOne-Regular&quot;); font-size: 55px; color: rgb(255, 255, 255); text-shadow: 2px 2px 0 rgb(0, 0, 0);"/>
+            <ui:Button text="START GAME" name="startgame__button" class="menuRegularButton"/>
+            <ui:Button text="CREDITS" name="credits__button" class="menuRegularButton" style="background-image: url(&quot;project://database/Assets/DragonCrashersAssets/UI_atlas.psd?fileID=8745004154949635262&amp;guid=3ea5741daef7b4b5c9d04795c7e84687&amp;type=3#UI_atlas_98&quot;);"/>
+            <ui:Button text="ABOUT US" name="about-us__button" class="menuRegularButton" style="background-image: url(&quot;project://database/Assets/DragonCrashersAssets/UI_atlas.psd?fileID=-6774990138207219512&amp;guid=3ea5741daef7b4b5c9d04795c7e84687&amp;type=3#UI_atlas_103&quot;); margin-bottom: 50px;"/>
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>
